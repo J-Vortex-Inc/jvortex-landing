@@ -1,6 +1,6 @@
 import React, { useEffect, useRef } from 'react';
 import Hero from '../components/Hero';
-import logo from '../assets/images/jvortex-logo.png';
+import logo from '../assets/images/jvortex.png';
 import AboutSection from '../components/AboutSection';
 import VenturesSection from '../components/VenturesSection';
 import PartnershipSection from '../components/PartnershipSection';
