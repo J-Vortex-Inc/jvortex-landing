@@ -1,6 +1,7 @@
 import React, { useEffect, useRef } from 'react';
 import Hero from '../components/Hero';
 import logo from '../assets/images/jvortex.png';
+import jvortexLogo from '../assets/images/jvortex-logo.png';
 import AboutSection from '../components/AboutSection';
 import VenturesSection from '../components/VenturesSection';
 import PartnershipSection from '../components/PartnershipSection';
@@ -108,7 +109,7 @@ const IgreeLandingPage: React.FC = () => {
         <div className="max-w-6xl mx-auto">
           <div className="flex flex-col md:flex-row justify-between items-center">
             <div className="text-2xl font-bold">
-              <img src={logo} alt="J Vortex Logo" className="h-24 w-48" />
+              <img src={jvortexLogo} alt="J Vortex Logo" className="h-24 w-48" />
             </div>
             <div className="flex space-x-8 text-sm text-gray-600">
               <a href="#" className="hover:text-black transition-colors">Privacy</a>
