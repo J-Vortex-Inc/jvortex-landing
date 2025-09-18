@@ -25,23 +25,23 @@ const AboutSection = () => {
             {/* Our Mission Card */}
             <div className="group bg-white hover:bg-gradient-to-br from-white to-gray-50 p-8 sm:p-10 rounded-3xl transition-all duration-500 hover:shadow-2xl hover:shadow-purple-200/50 hover:-translate-y-2 border border-gray-100">
            
-              <h3 className="text-xl sm:text-2xl font-bold text-gray-900 mb-4">Our Mission</h3>
-              <p className="text-gray-600 leading-relaxed">
-                We believe technology should make life smart and simple, while creating opportunities and value for everyone.
+              <h3 className="text-xl text-left sm:text-2xl font-bold text-gray-900 mb-4">Our Mission</h3>
+              <p className="text-gray-600 text-left leading-relaxed">
+                To build and nurture innovative companies that harness technology to make everyday life smart and simple, unlock opportunities and generate sustainable value for communities.
               </p>
             </div>
 
             {/* Our Vision Card */}
             <div className="group bg-white hover:bg-gradient-to-br from-white to-gray-50 p-8 sm:p-10 rounded-3xl transition-all duration-500 hover:shadow-2xl hover:shadow-blue-200/50 hover:-translate-y-2 border border-gray-100">
            
-              <h3 className="text-xl sm:text-2xl font-bold text-gray-900 mb-4">Our Vision</h3>
-              <p className="text-gray-600 leading-relaxed">
-                To be a trusted global holdings company that builds ethical, high-impact businesses, reshaping how people live, work, and connect.
+              <h3 className="text-xl text-left sm:text-2xl font-bold text-gray-900 mb-4">Our Vision</h3>
+              <p className="text-gray-600 text-left leading-relaxed">
+                To be a trusted global holdings company that catalyzes transformative innovation — building resilient, ethical and high-impact businesses that improve how people live, work and connect.
               </p>
             </div>
 
             {/* Our Approach Card - Added a third card for better balance */}
-            <div className="group bg-white hover:bg-gradient-to-br from-white to-gray-50 p-8 sm:p-10 rounded-3xl transition-all duration-500 hover:shadow-2xl hover:shadow-indigo-200/50 hover:-translate-y-2 border border-gray-100">
+            <div className="group text-left bg-white hover:bg-gradient-to-br from-white to-gray-50 p-8 sm:p-10 rounded-3xl transition-all duration-500 hover:shadow-2xl hover:shadow-indigo-200/50 hover:-translate-y-2 border border-gray-100">
              
               <h3 className="text-xl sm:text-2xl font-bold text-gray-900 mb-4">Our Approach</h3>
               <p className="text-gray-600 leading-relaxed">
